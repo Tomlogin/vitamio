@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="2000"/>
+
+    <scale
+    android:fromYScale="1.0"
+    android:fromXScale="1.0"
+    android:toYScale="0"
+    android:toXScale="1.0"
+    android:pivotX="50%p"
+    android:pivotY="100%p"
+    android:duration="2000"
+    />
+
+
+
+    <!--<translate-->
+    <!--android:fromXDelta="100%p"-->
+    <!--android:toYDelta="-100%p"-->
+    <!--android:duration="5000"-->
+    <!--android:repeatCount="-1"-->
+    <!--&gt;-->
+<!--</translate>-->
+
+
+
+
+<!--x,y决定旋转的中心点，degress决定角度，duratuion决定时间，-->
+    <!--repeatcount决定旋转次数，repeatMode决定旋转模式-->
+<!--<rotate-->
+    <!--android:pivotX="50%"-->
+    <!--android:pivotY="50%"-->
+    <!--android:fromDegrees="0"-->
+    <!--android:toDegrees="+45"-->
+    <!--android:duration="2000"-->
+    <!--android:repeatCount="-1"-->
+    <!--android:repeatMode="reverse"/>-->
+</set>
